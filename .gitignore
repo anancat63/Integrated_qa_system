@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+logs/*.log
+*.log
+
+# Local env
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Trained/model artifacts
+rag_qa/models/
+bert_results/
+bert_logs/
+bert_query_classifier/
+bert_query_classifier_1/
+
+# Data artifacts users generate
+rag_qa/data/**/generated_*/
+mysql_qa/data/**/*.cache
